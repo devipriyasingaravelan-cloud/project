@@ -1,1 +1,1 @@
- git config --global user.email "devipriyasingaravelan.com"
+web: gunicorn app:app
