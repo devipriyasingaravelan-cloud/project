@@ -7,11 +7,11 @@ from urllib.parse import urlparse
 app = Flask(__name__)
 
 # 🔥 GET DATABASE URL
-db_url = os.getenv("mysql://root:NxPctlFQnVucqFSzURsyOxhVJtnzTSQy@switchyard.proxy.rlwy.net:56637/railway")
+db_url = os.getenv("mysql://root:ktsEFzBNpufUKxftEozNmyvwwLjPpQbT@interchange.proxy.rlwy.net:18167/railway")
 
 # 👉 fallback for local testing (IMPORTANT)
 if not db_url:
-    db_url = "mysql://root:NxPctlFQnVucqFSzURsyOxhVJtnzTSQy@switchyard.proxy.rlwy.net:56637/railway"
+    db_url = "mysql://root:ktsEFzBNpufUKxftEozNmyvwwLjPpQbT@interchange.proxy.rlwy.net:18167/railway"
 
 url = urlparse(db_url)
 
